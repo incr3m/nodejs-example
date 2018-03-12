@@ -1,7 +1,8 @@
 version: '3'
 services:
   agent:
-    image: "buildkite/agent:ubuntu"
+    # image: "buildkite/agent:ubuntu"
+    image: "cl0sey/buildkite-agent-bash-node"
     # volumes:
     environment:
       - BUILDKITE_AGENT_TOKEN=b9ff4b81247d93c06e7c1e70d9d3cb980567ead1e3cbf19c99
